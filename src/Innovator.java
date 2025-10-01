@@ -1,6 +1,6 @@
 public class Innovator {
  private String fullName;
- private String currentExperience;
+ private String currentProject;
     private int yearsExperience;
 
     public int getYearsExperience() {
@@ -15,15 +15,15 @@ public class Innovator {
         }
     }
 
-    public Innovator(String fullName, String currentExperience) {
+    public Innovator(String fullName, String currentProject) {
         this.fullName = fullName;
-        this.currentExperience = currentExperience;
+        this.currentProject = currentProject;
     }
 
 
 
 public void innovate() {
-    System.out.println( fullName+ " " + currentExperience + " " + "üzərində yenilik edir! 🛠️");
+    System.out.println( fullName+ " " + currentProject + " " + "üzərində yenilik edir! 🛠️");
 
 }
 
