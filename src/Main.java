@@ -4,16 +4,16 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("===== 🚀 Innovators =====");
 
-        Innovator innavotar = new Innovator("Zeynal", "Library");
-      innavotar.innovate();
-     innavotar.setYearsExperience(5);
-     System.out.println("➡️ " + innavotar.getYearsExperience() + " il təcrübəsi var.");
+        Innovator innovator = new Innovator("Zeynal", "Library");
+      innovator.innovate();
+     innovator.setYearsExperience(5);
+     System.out.println("➡️ " + innovator.getYearsExperience() + " il təcrübəsi var.");
 
 
-    Innovator innavator2 = new Innovator("Aysel", "NewSale");
-    innavator2.setYearsExperience(7);
-    innavator2.innovate();
-    System.out.println("➡️ " + innavator2.getYearsExperience() + "il tecrubesi var");
+    Innovator innovator2 = new Innovator("Aysel", "NewSale");
+    innovator2.setYearsExperience(7);
+    innovator2.innovate();
+    System.out.println("➡️ " + innovator2.getYearsExperience() + "il tecrubesi var");
 
         System.out.println("===== 🏥 Healers =====");
      Healer aydan = new Healer("Aydan", "Cardiology");
